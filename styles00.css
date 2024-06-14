@@ -1,0 +1,27 @@
+/* Custom styles */
+#menu-section {
+    background-color: #e0e0e0; /* Set a background color to distinguish the section */
+    height: 1000px; /* Make the section tall enough to require scrolling */
+    padding: 20px; /* Add some padding */
+}
+
+.navbar-nav > li > a {
+    color: #000; /* Set menu item color */
+}
+
+.navbar-toggle {
+    float: right; /* Ensure the toggle button is on the right */
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        display: none; /* Hide the nav items on desktop and tablet view */
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        width: 100%; /* Make the dropdown menu take up the full width */
+        background-color: #ddd; /* Set a background color for the dropdown menu */
+    }
+}
